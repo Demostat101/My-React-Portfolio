@@ -22,7 +22,6 @@
 .imageContainer{
     border: 2px solid #E6E6E6;
     width: 180px;
-    height: 180px;
     display: grid;
     justify-content: center;
     place-items: center;
