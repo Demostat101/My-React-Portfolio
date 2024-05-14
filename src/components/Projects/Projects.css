@@ -67,7 +67,7 @@
 
 .project{
     color: var(--text-color);
-    text-transform:uppercase;
+    padding: 0 0.5em ;
 }
 
 .worklink a,.repo a {

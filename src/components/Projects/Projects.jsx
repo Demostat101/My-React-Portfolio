@@ -52,7 +52,7 @@ const Projects = () => {
                     isShow ? () => handleShow(val.ID) : () => showAnswer(val.ID)
                   }
                 >
-                  <h2 className="project">{val.id}</h2>
+                  <small className="project">{val.id}</small>
 
                   <button className="worklink">
                     <a href={val.visitLink} target="_blank">

@@ -10,7 +10,7 @@ import Image5 from "./Images/testimonialPic.png"
 export const ProjectArray = [
 
     {   ID:1,
-        id:"Project 01",
+        id:"Responsive React Accordion web app that helps users to show or hide contents on a particular question, users can toggle between single accordion and multiple accordion.",
         visitLogo:<FaInternetExplorer size={15}/>,
         visitLink:"https://react-accordion-ademola-omikunle.vercel.app/",
         repoLogo:<FaGithub size={15}/>,
@@ -20,7 +20,7 @@ export const ProjectArray = [
     },
     {   
         ID:2,
-        id:"Project 02",
+        id:"Responsive Insurance Web app created with Html, Css and Javascript.",
         visitLogo:<FaInternetExplorer size={15}/>,
         visitLink:"https://insure-blush.vercel.app/",
         repoLogo:<FaGithub size={15}/>,
@@ -30,7 +30,7 @@ export const ProjectArray = [
     },
     {
         ID:3,
-        id:"Project 03",
+        id:"SuperHuman pricing page Web app created with Html, Css and Javascript, where a user can toggle between monthly and yearly payment. Users can also subscribe for family and friends.",
         visitLogo:<FaInternetExplorer size={15}/>,
         visitLink:"https://demostat101.github.io/superHuman/",
         repoLogo:<FaGithub size={15}/>,
@@ -40,7 +40,7 @@ export const ProjectArray = [
     },
     {
         ID:4,
-        id:"Project 04",
+        id:"Simple Mathematical Calculator Web app created with Html, Css and Javascript. It can be used to perform simple mathematical operations.",
         visitLogo:<FaInternetExplorer size={15}/>,
         visitLink:"https://calculator-cyan-sigma-54.vercel.app/",
         repoLogo:<FaGithub size={15}/>,
@@ -50,7 +50,7 @@ export const ProjectArray = [
     },
     {
         ID:5,
-        id:"Project 05",
+        id:"Responsive Users Testimonial Web app created with Html and Css Grid",
         visitLogo:<FaInternetExplorer size={15}/>,
         visitLink:"https://demostat101.github.io/testimonialGrid/",
         repoLogo:<FaGithub size={15}/>,
