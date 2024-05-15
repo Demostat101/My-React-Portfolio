@@ -5,9 +5,20 @@ import Image2 from "./Images/Capture.png"
 import Image3 from "./Images/superhuman.png"
 import Image4 from "./Images/Calculator.png"
 import Image5 from "./Images/testimonialPic.png"
+import DisneyImage from "./Images/disney.png"
 
 
 export const ProjectArray = [
+
+    {   ID:6,
+        id:"Responsive UK DISNEY CLONE Web app created with REACT.",
+        visitLogo:<FaInternetExplorer size={15}/>,
+        visitLink:"https://disney-clone-omikunle-ademola.vercel.app/",
+        repoLogo:<FaGithub size={15}/>,
+        repoLink:"https://github.com/Demostat101/DisneyClone",
+        image:DisneyImage
+
+    },
 
     {   ID:1,
         id:"Responsive React Accordion web app that helps users to show or hide contents on a particular question, users can toggle between single accordion and multiple accordion.",
