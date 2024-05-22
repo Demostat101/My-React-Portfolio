@@ -5,10 +5,22 @@ import Image2 from "./Images/Capture.png"
 import Image3 from "./Images/superhuman.png"
 import Image4 from "./Images/Calculator.png"
 import Image5 from "./Images/testimonialPic.png"
-import DisneyImage from "./Images/disney.png"
+
+import Image7 from "./Images/DisneyImage.png"
+import Image6 from "./Images/sailPic.png"
 
 
 export const ProjectArray = [
+
+    {   ID:7,
+        id:"Responsive Search Engine created with React. Google API was consumed for this project",
+        visitLogo:<FaInternetExplorer size={15}/>,
+        visitLink:"https://sail-search-engine-omikunle-ademola.vercel.app/",
+        repoLogo:<FaGithub size={15}/>,
+        repoLink:"https://github.com/Demostat101/SAIL_SEARCH_ENGINE",
+        image: Image6
+
+    },
 
     {   ID:6,
         id:"Responsive UK DISNEY CLONE Web app created with REACT.",
@@ -16,7 +28,7 @@ export const ProjectArray = [
         visitLink:"https://disney-clone-omikunle-ademola.vercel.app/",
         repoLogo:<FaGithub size={15}/>,
         repoLink:"https://github.com/Demostat101/DisneyClone",
-        image:DisneyImage
+        image:Image7
 
     },
 
