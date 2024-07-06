@@ -8,10 +8,20 @@ import Image5 from "./Images/testimonialPic.png"
 import Image6 from "./Images/sailPic.png"
 import Image7 from "./Images/DisneyImage.png"
 import Image8 from "./Images/techcareimage.png"
+import Image9 from "./Images/BlogImage.png"
 
 
 
 export const ProjectArray = [
+    {   ID:9,
+        id:"A blog App created with React, Typescript, TailwindCSS, NodeJs, ExpressJs, and MongoDb... Crud operation can be performed on it where you can Create, Read, Update and Delete. A search functionality where you can either search by title or content of the post ",
+        visitLogo:<FaInternetExplorer size={15}/>,
+        visitLink:"https://blog-app-omikunle-ademola.vercel.app/",
+        repoLogo:<FaGithub size={15}/>,
+        repoLink:"https://github.com/Demostat101/BlogApp",
+        image: Image9
+
+    },
     {   ID:8,
         id:"Health care patient Dashboard Page created with React, where patients details can be found. Created for Pc view only. Coalition Fake API was consumed for this. Pictogram was created with Chartjs. Patients can be searched by name, click on the more(...) on a particular patient to view patient information",
         visitLogo:<FaInternetExplorer size={15}/>,
