@@ -31,6 +31,10 @@ export const SkillsArray = [
         logo:<SiTypescript size={30}/>
     },
     {
+        name:"TAILWIND CSS",
+        logo:<SiTypescript size={30}/>
+    },
+    {
         name:"REACT JS",
         logo:<IoLogoReact size={30}/>
     },
