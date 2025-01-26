@@ -9,6 +9,8 @@ import { FaGit } from "react-icons/fa"
 import { SiVisualstudiocode } from "react-icons/si"
 import { FaGithub } from "react-icons/fa6"
 import { DiMongodb } from "react-icons/di"
+import { SiNextdotjs } from "react-icons/si";
+import { SiVuedotjs } from "react-icons/si";
 
 
 
@@ -37,6 +39,14 @@ export const SkillsArray = [
     {
         name:"REACT JS",
         logo:<IoLogoReact size={30}/>
+    },
+    {
+        name:"NEXT JS",
+        logo:<SiNextdotjs size={30}/>
+    },
+    {
+        name:"VUE JS",
+        logo:<SiVuedotjs size={30}/>
     },
     {
         name:"NODE JS",

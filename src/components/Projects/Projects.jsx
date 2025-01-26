@@ -16,6 +16,8 @@ const Projects = () => {
     setIsShow(show);
   };
 
+  console.log(targetId);
+  
   return (
     <div className="Portfolio" id="Portfolio">
       <div className="port">

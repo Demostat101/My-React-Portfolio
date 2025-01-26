@@ -30,6 +30,10 @@
     object-fit:cover;
 }
 
+.repo{
+display: none;
+}
+
 
 .first1{
     display: flex;
@@ -76,7 +80,7 @@
     color: var(--text-color);
 }
 
-.worklink, .repo {
+.worklink {
     width: 70px;
     height: 30px;
     background-color: var(--bg-color);
