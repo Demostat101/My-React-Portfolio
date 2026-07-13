@@ -10,10 +10,20 @@ import Image7 from "./Images/DisneyImage.png"
 import Image8 from "./Images/hr360.jpg"
 import Image9 from "./Images/defi.jpg"
 import Image10 from "./Images/wopa.jpg"
+import Image11 from "./Images/winresponse.png"
 
 
 
 export const ProjectArray = [
+    {   ID:11,
+        id:"A modern recruitment platform built with React Js, TypeScript, and Tailwind CSS, featuring an AI-powered Applicant Tracking System (ATS), candidate management, job postings, interview scheduling, and recruiter collaboration tools.",
+        visitLogo:<FaInternetExplorer size={15}/>,
+        visitLink:"https://winresponse.io",
+        repoLogo:<FaGithub size={15}/>,
+        repoLink:"",
+        image: Image11
+
+    },
     {   ID:9,
         id:"A CryptoCurrency app created with Vue js, Typescript, TailwindCSS... It has functionality of language change and customer care chat app ",
         visitLogo:<FaInternetExplorer size={15}/>,
