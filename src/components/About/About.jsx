@@ -89,16 +89,13 @@ const About = () => {
 
       {/* Candidates Application */}
       <div className="candidates-embed">
-       
-  <iframe 
-    src="https://jobable.winresponse.io/?slug=maryam-technologies-limited&theme=%23395A7F" 
+      
+        <iframe
+           src="https://jobable.winresponse.io/?slug=maryam-technologies-limited&theme=%23395A7F" 
      referrerPolicy="unsafe-url"
-    width="100%" 
-    height="100%" 
-     style="border:none;width:100%;height:100vh;overflow:hidden;"
-  
-    title="Candidates Embed">
-  </iframe>
+          title="Candidates Embed"
+          className="candidates-iframe"
+        />
       </div>
     </div>
   );
