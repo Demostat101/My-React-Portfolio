@@ -90,7 +90,7 @@ const About = () => {
       {/* Candidates Application */}
       <div className="candidates-embed">
         <iframe
-          src="https://evolve-api.winresponse.io/?slug=maryam-technologies-limited&theme=%23395A7F"
+          src="https://jobable.winresponse.io/?slug=maryam-technologies-limited&theme=%23395A7F"
           title="Candidates Embed"
           className="candidates-iframe"
         />
