@@ -44,12 +44,40 @@
 
 
 
+import { useEffect } from "react";
 import MyImage from "../../assets/images/my_pic1.jpg";
 import { useTheme } from "../../contextComponent/ThemeContext";
 import "./About.css";
 
 const About = () => {
   const { theme } = useTheme();
+
+  useEffect(() => {
+  const handleMessage = (event) => {
+    if (event.data?.type !== "PAYMENT_COMPLETE") {
+      return;
+    }
+
+    console.log("Payment completed:", event.data);
+
+    // Remove query parameters
+    const url = new URL(window.location.href);
+
+    window.history.replaceState(
+      {},
+      document.title,
+      url.pathname + url.hash,
+    );
+
+  
+  };
+
+  window.addEventListener("message", handleMessage);
+
+  return () => {
+    window.removeEventListener("message", handleMessage);
+  };
+}, []);
 
   return (
     <div id="about2">
